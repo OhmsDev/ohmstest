@@ -18,7 +18,7 @@ public class AuthController {
 
     @GetMapping(value = "response", produces = "text/plain")
     public String getResponse(){
-        return "I am Muhammed";
+        return "I am Muhammed Z. The son of my father";
     }
 
     @RequestMapping(value = "/index1", method = RequestMethod.GET)
